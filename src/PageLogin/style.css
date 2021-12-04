@@ -1,0 +1,20 @@
+#login, #cancel{
+-fx-border-color:  #4682B4;
+-fx-border-radius: 20px;
+-fx-background-radius:20px;
+-fx-background-color: #FFFFFF;
+}Application
+#login:hover{
+-fx-border-color:  #4682B4;
+-fx-background-color: #4682B4;
+-fx-text-fill: #FFFFFF;
+}
+#cancel:hover{
+-fx-border-color:  #4682B4;
+-fx-background-color: #4682B4;
+-fx-text-fill: #FFFFFF;
+}
+.wrong-credentials{
+ -jfx-unfocus-color: red;
+ -jfx-focus-color: red;
+}
